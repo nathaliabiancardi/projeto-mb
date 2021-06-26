@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Yellowtail&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 400  14px Roboto, sans-serif;
+    background:#ffffff; 
+    -webkit-font-smoothing: antialiased;
+}
+
+input, button, textarea{
+    font: 400  18px Roboto, sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+form input{
+    width: 100%;
+    height: 60px;
+    color: #000;
+    border: 1 px solid #4328E7;
+    border-radius: 8px;
+    padding: 0 24px;
+    margin-top: 10px;
+}
+
+.button{
+    width: 100%;
+    height: 60px;
+    background: #4328E7;
+    border:0;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 15px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.button:hover{
+    background: #000;
+}
+
+.fb-link{
+    display: flex;
+    align-items:center;
+    margin-top: 30px;
+    color:#4328E7;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    color:#fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 20px;
+    
+}
+
+footer button{
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    margin-left: 8px;
+    border: none;
+}
